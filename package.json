@@ -7,14 +7,16 @@
     "bundle": "node node_modules/react-360/scripts/bundle.js",
     "open": "node -e \"require('xopen')('http://localhost:8081/index.html')\"",
     "devtools": "react-devtools",
-    "test": "jest"
+    "test": "jest",
+    "build": "node node_modules/react-360/scripts/bundle.js"
   },
   "dependencies": {
+    "express": "^4.17.0",
     "react": "16.3.2",
-    "react-native": "~0.55.4",
     "react-360": "~1.1.0",
     "react-360-gaze-button": "^1.0.0",
     "react-360-web": "~1.1.0",
+    "react-native": "~0.55.4",
     "simple-raycaster": "^1.1.0",
     "three": "^0.87.0",
     "webvr-polyfill": "^0.10.10"
