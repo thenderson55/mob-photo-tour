@@ -3,6 +3,7 @@ Mobile 360 photo tour
 
 Over several weekneds I learnt to use React-360 di build a 360 photo tour of various destinations. This was built to comlement a 30-minute 
 public tech talk given in Tokyo in June 2019.
+
 ---
 
 
